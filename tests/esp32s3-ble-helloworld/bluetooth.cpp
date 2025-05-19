@@ -13,24 +13,12 @@ bool oldDeviceConnected = false;
 *************************************************************************/
 
 String getNotificationData() {
-    // JsonDocument doc;   // notification capacity is reduced, only main value
-    // int deviceType = sensors.getUARTDeviceTypeSelected();
-    // if (deviceType <= 3) {
-    //     doc["P25"] = sensors.getPM25();  
-    // } else {
-    //     doc["CO2"] = sensors.getCO2();
-    // }
-    // String json;
-    // serializeJson(doc, json);
-    // return json;
     return "";
 }
 
 /*************************************************************************
 *   B L U E T O O T H   M E T H O D S
 *************************************************************************/
-
-
 
 // Config BLE callbacks
 class MyConfigCallbacks : public BLECharacteristicCallbacks {
