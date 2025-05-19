@@ -4,13 +4,13 @@ Tests around some Bluetooth LE libraries with Espressif and Arduino frameworks
 
 ## Results
 
-| Tests | Version |  RAM used | Flash used |
+| Test | Version |  RAM used | Flash used |
 |:---------|:------:|------:|------:|
 | Arduino Framework (without BLE libs)   | 6.10.0 | 18456 | 248457 |
 | Arduino Framework (internal library)   | 6.10.0 | 44388 | 894473 |
 | Arduino Framework (NimBLE Arduino lib) | 6.10.0 | 29088 | 489777 |
 | IDF NimBLE module | | WIP | WIP |
-| IDF BlueDroid | | WIP | WIP |
+| IDF BlueDroid module | | WIP | WIP |
 
 ## Run tests
 
