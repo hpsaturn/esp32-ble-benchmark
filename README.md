@@ -19,3 +19,14 @@ git clone https://github.com/hpsaturn/esp32-ble-benchmark.git
 cd esp32-ble-benchmark.git
 pio run | grep -e "RAM:" -e "Flash:"
 ```
+
+Output:
+
+```shell
+RAM:   [=         ]   5.6% (used 18456 bytes from 327680 bytes)
+Flash: [=         ]   7.4% (used 248457 bytes from 3342336 bytes)
+RAM:   [=         ]  13.5% (used 44388 bytes from 327680 bytes)
+Flash: [===       ]  26.8% (used 894473 bytes from 3342336 bytes)
+RAM:   [=         ]   8.9% (used 29088 bytes from 327680 bytes)
+Flash: [=         ]  14.7% (used 489777 bytes from 3342336 bytes)
+```
