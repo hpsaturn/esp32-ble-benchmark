@@ -4,7 +4,7 @@ Tests around some Bluetooth LE libraries with Espressif and Arduino frameworks
 
 ## Results
 
-| Tests | Version |  RAM used | Flash used |
+| Test | Version |  RAM used | Flash used |
 |:---------|:------:|------:|------:|
 | Arduino Framework (without BLE libs)   | 6.10.0 | 18456 | 248457 |
 | Arduino Framework (internal library)   | 6.10.0 | 44388 | 894473 |
